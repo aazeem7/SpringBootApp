@@ -1,5 +1,7 @@
 # Request Payload
 
+### Save a User
+```
 POST http://localhost:8080/api/student/save
 payload: 
 	{
@@ -33,9 +35,10 @@ payload:
         }
     ]
 }
+```
 
-# Find By Id
+### Find By Id
 - GET http://localhost:8080/api/student/1
 
-# Get All
+### Get All
 - GET http://localhost:8080/api/student/getAll
